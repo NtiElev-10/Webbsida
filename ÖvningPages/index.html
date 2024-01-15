@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <main>
+      <input type="number" id="num1" name="fname"><br><br>
+      <input type="number" id="num2" name="lname"><br><br>
+
+      <select name="Op" id="operator" onchange="getOperator()">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="audi">Audi</option>
+      </select><br><br>
+
+      <label id="res"></label>
+
+      <button type="button" onclick="doCalc()">Calc</button>
+    </main>
+	<script src="jsHandler.js"></script>
+  </body>
+</html>
