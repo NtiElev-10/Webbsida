@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Husdjur</h2>
+
+<form action="" target="_blank" method="post" autocomplete="on">
+  <fieldset>
+    <legend>Personuppgifter</legend>
+    <label for="fname">Förnamn:</label><br>
+    <input type="text" id="fname" name="fname" required><br><br>
+    <label for="lname">Efternamn:</label><br>
+    <input type="text" id="lname" name="lname" required><br><br>
+    <label for="lname">Email:</label><br>
+    <input type="email" id="lname" name="lname" required autofocus><br><br>
+  </fieldset>
+
+  <label for="lname">Månad du började skolan:</label><br>
+  <input type="month" id="month" name="month" required autofocus><br><br>
+
+  <textarea readonly cols="100%" rows="10">
+    information infinformation information information information information information information information information information information information information information information information information information information information information information information information information information information information information information information information information information information information information information information information information information information information information information information information information information information information information information information information information information information information information information information ormation 
+  </textarea><br><br>
+  
+  <label for="age">Antal husdjur:</label>
+  <input type="number" id="djur" name="djur" min="0" max="20"><br><br>
+
+  <p>Vilka typer av husdjur?</p>
+  <input type="checkbox" id="katt" name="katt" value="katt">
+  <label for="katt"> katt </label><br>
+  <input type="checkbox" id="hund" name="hund" value="hund">
+  <label for="hund"> hund </label><br>
+  <input type="checkbox" id="annat" name="annat" value="annat">
+  <label for="annat"> annat </label><br><br>    
+
+  <label for="telefonnummer">telefonnummer:</label><br>
+  <input type="tel" id="phone" name="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{2}[0-9]{2}" required placeholder="xxxxxxxxxx"/><br><br>
+
+  <label for="bild">bild tack:</label><br>
+  <input type="file" id="bild" name="bild" required accept="image/*"/><br><br>
+  
+  <p>Har du spenderat över en timme med husdjur denna vecka?</p>
+  <input type="radio" id="ja" name="fav_language" value="ja">
+  <label for="html">Ja</label><br><br>
+  <input type="radio" id="nej" name="fav_language" value="nej" checked>
+  <label for="css">Nej</label><br><br>
+
+  <input type="submit" value="Skicka in">
+  
+  
+</form> 
+
+<p>If you click the "Submit" button, the form-data should be sent but we have no PHP or database to handle it."</p>
+<p>Usualy its sent by the form attribute action"</p>
+
+</body>
+</html>

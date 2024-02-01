@@ -16,10 +16,4 @@ function doCalc(){
         document.getElementById("res").innerHTML = "Div) --> " + num1 + " / " + num2 + " = " + (+num1 / +num2);
     }
 
-    // skapa ett objekt bara för att
-
-    const objekt = {
-        para1:"hej",
-        para2:"hej"
-    }
 }
